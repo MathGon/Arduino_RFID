@@ -1,12 +1,16 @@
+/** A la lecture d'un tag NFC allume ledPinOK ou
+    ledPinNO si la valeur est comprise ou non dans
+    la liste de tags identifiés **/
+
 /** include library */
 #include "nfc.h"
  
 /** define a nfc class */
-NFC_Module nfc;
- 
+NFC_Module nfc; 
 
 int ledPinOK =12;
 int ledPinNO =13;
+
 String valid_UUID = "77105186124";
  
 void setup(void)
