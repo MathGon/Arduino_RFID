@@ -1,6 +1,4 @@
-/** A la lecture d'un tag NFC allume ledPinOK ou
-    ledPinNO si la valeur est comprise ou non dans
-    la liste de tags identifiés **/
+/** A la lecture d'un tag NFC allume ledPinOK ou ledPinNO si la valeur est comprise ou non dans la liste de tags identifiés **/
 
 /** include library */
 #include "nfc.h"
